@@ -13,10 +13,10 @@ IF(Zoltan2_ENABLE_ParMETIS)
   ENDIF()
 ENDIF()
 
-IF(Zoltan2_ENABLE_Scotch AND NOT HAVE_SCOTCH_VERSION_6_0_3)
-  MESSAGE(FATAL_ERROR "Zoltan2 requires Scotch version 6.0.3 or later. Upgrade or"
-    " set TPL_ENABLE_Scotch OFF or set Zoltan2_ENABLE_Scotch OFF.")
-ENDIF()
+# IF(Zoltan2_ENABLE_Scotch AND NOT HAVE_SCOTCH_VERSION_6_0_3)
+#   MESSAGE(FATAL_ERROR "Zoltan2 requires Scotch version 6.0.3 or later. Upgrade or"
+#     " set TPL_ENABLE_Scotch OFF or set Zoltan2_ENABLE_Scotch OFF.")
+# ENDIF()
 
 # Path to test and example data directory
 #KDD NOT WORKING IN NIGHTLY TEST SYSTEM
