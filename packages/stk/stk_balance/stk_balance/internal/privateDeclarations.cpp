@@ -1338,6 +1338,7 @@ bool is_geometric_method(const std::string& method)
 {
   return (method=="rcb" ||
           method=="rib" ||
+          method=="hsfc" ||
           method=="multijagged");
 }
 
